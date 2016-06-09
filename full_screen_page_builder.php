@@ -25,7 +25,7 @@ function full_screen_page_builder() {
 	    top: 35px;
 	}
 	.et-pb-options-tabs-links {
-		width: 100% !important;
+	    width: 100% !important;
 	}
   </style>';
 }
