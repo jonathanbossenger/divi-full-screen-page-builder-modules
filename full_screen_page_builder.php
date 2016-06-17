@@ -12,7 +12,7 @@ Version: 1.0
 Author URI: http://jonathanbossenger.com/
 */
 
-/* if you want to add this to your functions.php, copy and paste lines 16 - 31 */
+/* if you want to add this to your functions.php, copy and paste lines 16 - 37 */
 add_action('admin_head', 'full_screen_page_builder');
 function full_screen_page_builder() {
     echo '<style>
