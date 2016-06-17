@@ -26,7 +26,11 @@ function full_screen_page_builder() {
 	.et-pb-options-tabs-links {
 		width: 100% !important;
 	}
+	.et_pb_prompt_modal{ 
+		top: 35px !important;
+		height: 95% !important;
+		left: 15% !important;
+		width: 95% !important;
+	} 
   </style>';
 }
-
-?>
