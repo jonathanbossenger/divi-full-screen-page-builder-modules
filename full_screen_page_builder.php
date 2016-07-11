@@ -12,9 +12,10 @@ Version: 1.0
 Author URI: http://jonathanbossenger.com/
 */
 
-/* if you want to add this to your functions.php, copy and paste lines 16 - 37 */
+/* if you want to add this to your child theme, copy and paste this code snippet to your functions.php */
 add_action('admin_head', 'full_screen_page_builder');
 function full_screen_page_builder() {
+
     echo '<style>
         .et_pb_modal_settings_container {
 	    width: 100% !important;
@@ -33,5 +34,11 @@ function full_screen_page_builder() {
 		left: 15% !important;
 		width: 95% !important;
 	} 
+	.et_pb_prompt_modal_save_library {
+        margin-left: -12% !important;
+        height: 80% !important;
+    }
+
   </style>';
 }
+/* if you want to add this to your child theme, copy and paste this code snippet to your functions.php */
