@@ -38,7 +38,7 @@ function full_screen_page_builder() {
             margin-left: -12% !important;
             height: 80% !important;
         }
-        /* increase html editor to 500px high, credits Terry Smith
+        /* increase html editor to 500px high, credits Terry Smith */
         #et_pb_content_new_ifr{
             height:500px!important
         }
